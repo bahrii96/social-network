@@ -3,7 +3,7 @@ import s from '.././Dialogs.module.css';
 import { NavLink } from 'react-router-dom';
 
 const Message = props => {
-   return <div className={s.dialog}>{props.message}</div>;
+   return <div className={s.dialog} key={props.id}>{props.message}</div>;
 };
 
 export default Message;

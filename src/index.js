@@ -29,7 +29,7 @@ let messages = [
 
 ReactDOM.createRoot(document.getElementById('root')).render(
    <React.StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename="/social-network/">
       <App posts={posts} dialogs={dialogs} messages={messages}/>
          </BrowserRouter>
    </React.StrictMode>,

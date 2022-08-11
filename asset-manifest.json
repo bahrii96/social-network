@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/social-network/static/css/main.f28f9085.css",
+    "main.js": "/social-network/static/js/main.9a1b59de.js",
+    "static/media/82971932_170089537537022__n.jpg": "/social-network/static/media/82971932_170089537537022_1121280600023583315_n.c310dca233f9345b7c55.jpg",
+    "static/media/vadim.jpg": "/social-network/static/media/vadim.d958b1142e9220a6ee3b.jpg",
+    "index.html": "/social-network/index.html",
+    "main.f28f9085.css.map": "/social-network/static/css/main.f28f9085.css.map",
+    "main.9a1b59de.js.map": "/social-network/static/js/main.9a1b59de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f28f9085.css",
+    "static/js/main.9a1b59de.js"
+  ]
+}

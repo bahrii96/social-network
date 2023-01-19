@@ -1,35 +1,35 @@
 import React from 'react';
 import s from './Navbar.module.css';
-import {BrowserRouter as Router, Switch, Route, Link, useRouteMatch, useParams, NavLink} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link, useRouteMatch, useParams } from 'react-router-dom';
 
 const Navbar = () => {
    return (
       <nav className={s.nav}>
          <div className={s.item}>
-            <Link to="/profile" activeclassname={s.activeLink}>
+            {/* <NavLink to="/profile" activeClassName={s.activeLink}>
                Profile
-            </Link>
+            </NavLink> */}
          </div>
-      <div className={`${s.item} ${s.active}`}>
-            <Link to="/dialogs" activeclassname={s.activeLink}>
+         {/* <div className={`${s.item} ${s.active}`}>
+            <NavLink to="/dialogs" activeClassName={s.activeLink}>
                Messages
-            </Link>
+            </NavLink>
          </div>
          <div className={s.item}>
-            <Link to="/news" activeclassname={s.activeLink}>
+            <NavLink to="/news" activeClassName={s.activeLink}>
                News
-            </Link>
+            </NavLink>
          </div>
          <div className={s.item}>
-            <Link to="/music" activeclassname={s.activeLink}>
+            <NavLink to="/music" activeClassName={s.activeLink}>
                Music
-            </Link>
+            </NavLink>
          </div>
          <div className={s.item}>
-            <Link to="/settings" activeclassname={s.activeLink}>
+            <NavLink to="/settings" activeClassName={s.activeLink}>
                Settings
-            </Link>
-         </div>
+            </NavLink>
+         </div> */}
       </nav>
    );
 };
